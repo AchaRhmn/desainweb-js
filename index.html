@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hello World</title>
+  <link href='/style.css' rel='stylesheet'>
+</head>
+<body>
+  <h1>Hello, world!</h1>
+  <button onclick="hilangh1();">Press me</button>
+  <button onclick="sembunyih1();">click!</button>
+  
+<script>
+  
+  function hilangh1(){
+    let head1 = document.querySelector('h1');
+    if (head1.style.display == 'none'){
+      head1.style.display = 'block';
+    }
+    else {
+      head1.style.display = 'none';
+    }
+  }
+
+  function sembunyih1(){
+    let head1 = document.querySelector('h1');
+   
+    if (head1.style.visibility == 'hidden'){
+    head1.style.visibility = 'visible';
+
+  }
+    else {
+      head1.style.visibility = 'hidden';
+
+    }
+   
+  }
+</script>
+</body>
+</html>
